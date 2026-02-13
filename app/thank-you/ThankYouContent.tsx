@@ -104,7 +104,8 @@ export function ThankYouContent() {
           {/* Download button */}
           <div className="animate-fade-in-up delay-300">
             <a
-              href="#"
+              href="/guide.pdf"
+              download="B2B-Content-Marketing-Playbook.pdf"
               className="inline-flex items-center gap-3 rounded-xl bg-[var(--accent)] px-8 py-4 font-[family-name:var(--font-display)] text-lg font-semibold text-white shadow-lg transition-all hover:bg-[var(--accent-hover)] hover:shadow-xl"
             >
               <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">

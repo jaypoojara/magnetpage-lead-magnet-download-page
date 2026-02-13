@@ -20,6 +20,7 @@
 ## Pages
 
 - **Homepage** (`/`) — The main lead magnet landing page with email capture form
+- **Chapter Preview** (`/chapters/01` through `/chapters/06`) — Individual chapter pages with key takeaways, preview excerpt, pull quote, and download CTA
 - **Thank You** (`/thank-you`) — Post-submission confirmation page with download link and upsell
 
 ## Homepage Sections
