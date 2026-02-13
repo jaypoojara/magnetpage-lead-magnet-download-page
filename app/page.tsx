@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Book3D } from "@/components/Book3D";
 import { LeadForm } from "@/components/LeadForm";
 import { CountUp } from "@/components/CountUp";
@@ -247,9 +248,10 @@ export default function MagnetPage() {
 
         <div className="mt-14 space-y-4">
           {CHAPTERS.map((chapter) => (
-            <div
+            <Link
               key={chapter.number}
-              className="group rounded-2xl border border-[var(--border)] bg-[var(--background)] p-6 transition-all hover:border-[var(--accent)]/20 hover:shadow-sm sm:p-8"
+              href={`/chapters/${chapter.number}`}
+              className="group block rounded-2xl border border-[var(--border)] bg-[var(--background)] p-6 transition-all hover:border-[var(--accent)]/30 hover:shadow-sm sm:p-8"
             >
               <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:gap-6">
                 {/* Chapter number */}
@@ -273,13 +275,13 @@ export default function MagnetPage() {
                 </div>
 
                 {/* Arrow */}
-                <div className="hidden shrink-0 text-[var(--border)] transition-colors group-hover:text-[var(--accent)] sm:block">
+                <div className="hidden shrink-0 self-center text-[var(--border)] transition-colors group-hover:text-[var(--accent)] sm:block">
                   <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                   </svg>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
