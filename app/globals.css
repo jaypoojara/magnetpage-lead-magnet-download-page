@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FDFCF9;
-  --foreground: #1C1917;
-  --accent: #C05621;
-  --accent-hover: #A3461A;
+  --background: #F8F7F4;
+  --foreground: #1E1B4B;
+  --accent: #D97706;
+  --accent-hover: #B45309;
   --accent-foreground: #FFFFFF;
-  --secondary: #1B4332;
-  --secondary-light: #2D6A4F;
-  --muted: #78716C;
-  --surface: #F5F0EB;
-  --border: #E7E0D8;
+  --secondary: #4338CA;
+  --secondary-light: #6366F1;
+  --muted: #6B7280;
+  --surface: #EEECE7;
+  --border: #DDD9D1;
 }
 
 @theme inline {
@@ -30,16 +30,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #13120F;
-    --foreground: #F5F2EF;
-    --accent: #E07336;
-    --accent-hover: #C96228;
-    --accent-foreground: #FFFFFF;
-    --secondary: #34D399;
-    --secondary-light: #6EE7B7;
-    --muted: #A39E99;
-    --surface: #1E1C19;
-    --border: #302C27;
+    --background: #0F0E1A;
+    --foreground: #F0EDE8;
+    --accent: #FBBF24;
+    --accent-hover: #F59E0B;
+    --accent-foreground: #1E1B4B;
+    --secondary: #818CF8;
+    --secondary-light: #A5B4FC;
+    --muted: #9CA3AF;
+    --surface: #1A1830;
+    --border: #2A2745;
   }
 }
 
@@ -87,10 +87,10 @@ body {
 /* Pulse glow for CTA */
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(192, 86, 33, 0.4);
+    box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.35);
   }
   50% {
-    box-shadow: 0 0 0 8px rgba(192, 86, 33, 0);
+    box-shadow: 0 0 0 8px rgba(217, 119, 6, 0);
   }
 }
 

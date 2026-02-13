@@ -4,14 +4,14 @@
 
 ## Brand Identity
 
-- **Personality:** Professional, warm, trustworthy — built for B2B marketers
+- **Personality:** Premium, sophisticated, trustworthy — built for B2B marketers
 - **Primary Colors:**
-  - Background: `#FDFCF9` (warm cream)
-  - Foreground: `#1C1917` (warm black)
-  - Accent/CTA: `#C05621` (burnt sienna — warm, distinctive)
-  - Secondary: `#1B4332` (deep forest green — used for book cover, trust elements)
-  - Muted text: `#78716C` (warm gray)
-  - Surface/cards: `#F5F0EB` (warm beige)
+  - Background: `#F8F7F4` (warm off-white)
+  - Foreground: `#1E1B4B` (deep indigo — rich, not plain black)
+  - Accent/CTA: `#D97706` (warm amber/gold — premium, high-converting)
+  - Secondary: `#4338CA` (rich indigo — used for book cover, headings)
+  - Muted text: `#6B7280` (cool gray)
+  - Surface/cards: `#EEECE7` (warm stone)
 - **Fonts:**
   - Display/headings: Space Grotesk (modern, clean)
   - Body text: DM Sans (readable, approachable)
@@ -79,3 +79,4 @@ All content is stored in clearly labeled data objects at the top of each page fi
 ## Recent Changes
 
 - Initial build: Created complete MagnetPage template with landing page, thank-you page, 3D book mockup, progressive profiling form, animated counter, testimonials, FAQ, and upsell section
+- Updated color theme to deep indigo + warm amber/gold palette (from burnt sienna + forest green)

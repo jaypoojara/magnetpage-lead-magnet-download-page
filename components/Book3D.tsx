@@ -44,7 +44,7 @@ export function Book3D({
         {/* Front Cover */}
         <div className="relative aspect-[3/4] w-[240px] overflow-hidden rounded-r-lg sm:w-[280px]">
           {/* Cover background */}
-          <div className="flex h-full w-full flex-col justify-between bg-gradient-to-br from-[var(--secondary)] via-[var(--secondary)] to-[#0f2920] p-6 sm:p-8">
+          <div className="flex h-full w-full flex-col justify-between bg-gradient-to-br from-[var(--secondary)] via-[var(--secondary)] to-[#1e1145] p-6 sm:p-8">
             {/* Badge */}
             {badge && (
               <span className="inline-block self-start rounded-full bg-white/15 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.15em] text-white/90 backdrop-blur-sm">
