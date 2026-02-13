@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #F8F7F4;
-  --foreground: #1E1B4B;
-  --accent: #D97706;
-  --accent-hover: #B45309;
+  --background: #FAFBFD;
+  --foreground: #0F1729;
+  --accent: #3563E9;
+  --accent-hover: #2851C5;
   --accent-foreground: #FFFFFF;
-  --secondary: #4338CA;
-  --secondary-light: #6366F1;
-  --muted: #6B7280;
-  --surface: #EEECE7;
-  --border: #DDD9D1;
+  --secondary: #6D28D9;
+  --secondary-light: #7C3AED;
+  --muted: #64748B;
+  --surface: #F1F5F9;
+  --border: #E2E8F0;
 }
 
 @theme inline {
@@ -30,16 +30,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0F0E1A;
-    --foreground: #F0EDE8;
-    --accent: #FBBF24;
-    --accent-hover: #F59E0B;
-    --accent-foreground: #1E1B4B;
-    --secondary: #818CF8;
-    --secondary-light: #A5B4FC;
-    --muted: #9CA3AF;
-    --surface: #1A1830;
-    --border: #2A2745;
+    --background: #0B1120;
+    --foreground: #E8EDF5;
+    --accent: #6B8EF2;
+    --accent-hover: #5A7DE0;
+    --accent-foreground: #FFFFFF;
+    --secondary: #A78BFA;
+    --secondary-light: #C4B5FD;
+    --muted: #8B99AE;
+    --surface: #162033;
+    --border: #253549;
   }
 }
 
@@ -87,10 +87,10 @@ body {
 /* Pulse glow for CTA */
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.35);
+    box-shadow: 0 0 0 0 rgba(53, 99, 233, 0.35);
   }
   50% {
-    box-shadow: 0 0 0 8px rgba(217, 119, 6, 0);
+    box-shadow: 0 0 0 8px rgba(53, 99, 233, 0);
   }
 }
 

@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, DM_Sans } from "next/font/google";
+import { Playfair_Display, Lato } from "next/font/google";
 import "./globals.css";
 import { AgentationProvider } from "@/components/AgentationProvider";
 
-const spaceGrotesk = Space_Grotesk({
+const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-display",
   display: "swap",
 });
 
-const dmSans = DM_Sans({
+const lato = Lato({
   subsets: ["latin"],
+  weight: ["300", "400", "700", "900"],
   variable: "--font-body",
   display: "swap",
 });
@@ -33,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} ${dmSans.variable}`}>
+    <html lang="en" className={`${playfairDisplay.variable} ${lato.variable}`}>
       <body className="font-[family-name:var(--font-body)] antialiased">
         {children}
         <AgentationProvider />

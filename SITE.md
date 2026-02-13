@@ -4,17 +4,17 @@
 
 ## Brand Identity
 
-- **Personality:** Premium, sophisticated, trustworthy — built for B2B marketers
+- **Personality:** Clean, modern, professional with vibrant accents — built for B2B marketers
 - **Primary Colors:**
-  - Background: `#F8F7F4` (warm off-white)
-  - Foreground: `#1E1B4B` (deep indigo — rich, not plain black)
-  - Accent/CTA: `#D97706` (warm amber/gold — premium, high-converting)
-  - Secondary: `#4338CA` (rich indigo — used for book cover, headings)
-  - Muted text: `#6B7280` (cool gray)
-  - Surface/cards: `#EEECE7` (warm stone)
+  - Background: `#FAFBFD` (crisp cool white)
+  - Foreground: `#0F1729` (deep navy — readable, not harsh)
+  - Accent/CTA: `#3563E9` (sapphire blue — professional, vibrant)
+  - Secondary: `#6D28D9` (rich violet — used for book cover, premium feel)
+  - Muted text: `#64748B` (slate gray)
+  - Surface/cards: `#F1F5F9` (light slate)
 - **Fonts:**
-  - Display/headings: Space Grotesk (modern, clean)
-  - Body text: DM Sans (readable, approachable)
+  - Display/headings: Playfair Display (elegant serif, premium feel)
+  - Body text: Lato (clean sans-serif, highly readable)
 - **Dark mode:** Fully supported with inverted palette
 
 ## Pages
@@ -79,4 +79,4 @@ All content is stored in clearly labeled data objects at the top of each page fi
 ## Recent Changes
 
 - Initial build: Created complete MagnetPage template with landing page, thank-you page, 3D book mockup, progressive profiling form, animated counter, testimonials, FAQ, and upsell section
-- Updated color theme to deep indigo + warm amber/gold palette (from burnt sienna + forest green)
+- Updated color theme to sapphire blue + rich violet palette — crisp white base, blue CTAs, violet book cover
